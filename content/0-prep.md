@@ -18,7 +18,7 @@ However, for more advanced uses you will want Git, Ruby, and Jekyll installed on
 {% endcapture %}
 {% include card.html text=text header="Setup Overview" %}
 
-{% capture hello Ronna%}
+{% capture helloRonna %}
 
 ## Hi, Ronna!
 
@@ -26,7 +26,7 @@ This is some text that says hi to you!
 
 {% endcapture %}
 
-{% include card.html text=helloronna %}
+{% include card.html text=helloRonna %}
 
 -------------
 
